@@ -3,6 +3,9 @@
 A small Binary Ninja sidebar plugin: chat with any OpenAI-format model, which uses Binary Ninja's
 built-in MCP server as its tools. No pip dependencies.
 
+<img src="Screenshot 2026-10-17 003032.png" width="500" alt="NinjaPrompt Chat">
+<img src="Screenshot 2026-10-17 003114.png" width="500" alt="NinjaPrompt Settings">
+
 ## Setup
 1. Copy this folder to your plugins directory (Windows: `%APPDATA%\Binary Ninja\plugins\ninjaprompt`) and restart.
 2. Binary Ninja settings: enable `ui.mcp.enabled`, restart, then `Plugins > MCP > Start Server`
@@ -19,3 +22,7 @@ built-in MCP server as its tools. No pip dependencies.
 - `ui.py`: sidebar. Colors come from the Qt palette Binary Ninja sets from the active theme.
 
 Settings (including API keys) are stored in `ninjaprompt.json` in Binary Ninja's user directory, never in the .bndb.
+
+## Limitations
+- I only tested this on Windows. Feel free to submit a pull request if find an error on linux/mac.
+- I primarily created this for my own use, as I find the existing tools problematic to use. I don't plan on 'actively supporting' this unless there's something I need myself.
