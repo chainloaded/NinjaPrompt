@@ -10,5 +10,5 @@
   "platforms": ["Windows", "Linux", "Darwin"],
   "installinstructions": {"Windows": "Copy the folder into %APPDATA%\\Binary Ninja\\plugins", "Linux": "Copy the folder into ~/.binaryninja/plugins", "Darwin": "Copy the folder into ~/Library/Application Support/Binary Ninja/plugins"},
   "version": "0.1.0",
-  "minimumbinaryninjaversion": 6.0.10601
+  "minimumbinaryninjaversion": 10601
 }
