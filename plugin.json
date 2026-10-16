@@ -1,0 +1,14 @@
+{
+  "pluginmetadataversion": 2,
+  "name": "NinjaPrompt",
+  "author": "chainloaded",
+  "type": ["ui"],
+  "api": ["python3"],
+  "description": "Sidebar chat + agent loop between an OpenAI-format model and Binary Ninja's built-in MCP server.",
+  "longdescription": "Add any OpenAI-compatible model, chat in the sidebar, and let the model use Binary Ninja's MCP tools. Chats are stored in the .bndb.",
+  "license": {"name": "MIT", "text": "MIT License"},
+  "platforms": ["Windows", "Linux", "Darwin"],
+  "installinstructions": {"Windows": "Copy the folder into %APPDATA%\\Binary Ninja\\plugins", "Linux": "Copy the folder into ~/.binaryninja/plugins", "Darwin": "Copy the folder into ~/Library/Application Support/Binary Ninja/plugins"},
+  "version": "0.1.0",
+  "minimumbinaryninjaversion": 6.0.10601
+}
