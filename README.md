@@ -25,4 +25,5 @@ Settings (including API keys) are stored in `ninjaprompt.json` in Binary Ninja's
 
 ## Limitations
 - I only tested this on Windows. Feel free to submit a pull request if find an error on linux/mac.
-- I primarily created this for my own use, as I find the existing tools problematic to use. I don't plan on 'actively supporting' this unless there's something I need myself.
+- I primarily created this for my own use. I don't plan on 'actively supporting' this unless there's something I need myself.
+- This was primarily created with Claude because I needed a fitting replacement for existing solutions which didn't work well for me.
